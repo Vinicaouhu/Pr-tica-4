@@ -1,0 +1,39 @@
+#include <stdio.h>//O replit tem um problema
+#include <string.h>//ele não me deixa usar gets ou getch
+#include <math.h>//então o programa só não funciona
+
+int main()
+{
+char eu[2]={'o'};
+char tu[3]={'a','s'};
+char ele[2]={'a'};
+char nos[5]={'a','m','o','s'};
+char vos[4]={'a','i','s'};
+char eles[3]={'a','m'};
+
+
+char palavra[20];
+int n;
+
+printf("PALAVRA:\n");
+gets(palavra);  
+
+n=strlen(palavra);
+
+//for(i=n;i>=n;i++)
+//{
+if(palavra[n-2]=='a' && palavra[n-1]=='r') 
+{
+    palavra[n-2]='contrabarra zero'; 
+    printf("Eu %s%s\n",palavra,eu); 
+    printf("Tu %s%s\n",palavra,tu);
+    printf("Ele %s%s\n",palavra,ele);
+    printf("Nos %s%s\n",palavra,nos);
+    printf("Vos %s%s\n",palavra,vos);
+    printf("Eles %s%s\n",palavra,eles);
+}
+    else
+        printf("\a\aPalavra não terminada em ar");
+
+getch();
+}

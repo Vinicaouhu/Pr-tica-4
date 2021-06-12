@@ -1,0 +1,59 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void) {
+  float preco1;
+  float preco2;
+  float preco3;
+  float preco4;
+  float preco5;
+  float preco6;
+  float preco7;
+  float preco8;
+  float preco9;
+  float precox;
+  float pi=0.01;
+  float pf=0.1;
+  printf("Dê um valor ao primeiro produto: ");
+  scanf("%f",&preco1);
+  printf("%f",preco1+pi*preco1+pf*preco1);
+  float precof1=preco1+pi*preco1+pf*preco1;
+  printf("Dê um valor ao segundo produto: ");
+  scanf("%f",&preco2);
+  printf("%f",preco2+pi*preco2+pf*preco2);
+  float precof2=preco2+pi*preco2+pf*preco2;
+  printf("Dê um valor ao terceiro produto: ");
+  scanf("%f",&preco3);
+  printf("%f",preco3+pi*preco3+pf*preco3);
+  float precof3=preco3+pi*preco3+pf*preco3;
+  printf("Dê um valor ao quarto produto: ");
+  scanf("%f",&preco4);
+  printf("%f",preco4+pi*preco4+pf*preco4);
+  float precof4=preco4+pi*preco4+pf*preco4;
+  printf("Dê um valor ao quinto produto: ");
+  scanf("%f",&preco5);
+  printf("%f",preco5+pi*preco5+pf*preco5);
+  float precof5=preco5+pi*preco5+pf*preco5;
+  printf("Dê um valor ao sexto produto: ");
+  scanf("%f",&preco6);
+  printf("%f",preco6+pi*preco6+pf*preco6);
+  float precof6=preco6+pi*preco6+pf*preco6;
+  printf("Dê um valor ao sétimo produto: ");
+  scanf("%f",&preco7);
+  printf("%f",preco7+pi*preco7+pf*preco7);
+  float precof7=preco7+pi*preco7+pf*preco7;
+  printf("Dê um valor ao oitavo produto: ");
+  scanf("%f",&preco8);
+  printf("%f",preco8+pi*preco8+pf*preco8);
+  float precof8=preco8+pi*preco8+pf*preco8;
+  printf("Dê um valor ao nono produto: ");
+  scanf("%f",&preco9);
+  printf("%f",preco9+pi*preco9+pf*preco9);
+  float precof9=preco9+pi*preco9+pf*preco9;
+  printf("Dê um valor ao décimo produto: ");
+  scanf("%f",&precox);
+  printf("%f",precox+pi*precox+pf*precox);
+  float precofx=precox+pi*precox+pf*precox;
+  printf("%f",precof1+precof2+precof3+precof4+precof5+precof6+precof7+precof8+precof9+precofx);
+  return 0;
+}

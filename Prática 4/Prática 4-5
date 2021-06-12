@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+void maiusculo(char string1[],char string2[]){
+  int i=0;
+  while(string1[i] != '\0'){
+    string2[i]= toupper(string1[i]);
+    i++;
+  }
+  string2[i]='\0';
+}
+void minusculo(char string1[], char string2[]){
+  int i=0;
+  while(string1[i] !='\0'){
+    string2[i]= tolower(string1[i]);
+    i++;
+  }
+  string2[i]='\0';
+}
+int main(void) {
+  char string1[500];
+  char string2[500];
+  printf("String original: ");
+  scanf("%s",string1);
+
+  maiusculo(string1,string2);
+  printf("String em maiúsculo: %s\n", string2);
+
+  minusculo(string1,string2);
+  printf("String em minúsculo: %s\n ",string2);
+
+  //printf("Hello World\n");
+  return 0;
+}

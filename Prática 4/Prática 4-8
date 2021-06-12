@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+  struct telefone_t{//Se quiser alterar algum nome, por favor, altere aqui mesmo.
+    long int Jose[25];
+    long int Liza[25];
+    long int Mario[25];
+    long int Alemão[25];
+    long int Garry[25];
+    long int Alvin[25];
+    long int DaveSeville[30];
+    long int Hélio[25];
+    long int John[25];
+    long int IanHawk[27];
+  }telefone1,telefone2,telefone3,telefone4,telefone5,telefone6,telefone7,telefone8,telefone9,telefonex;
+  printf("Insira os telefones um por um: ");
+   scanf("%ld",telefone1.Jose);
+   scanf("%ld",telefone2.Liza);
+   scanf("%ld",telefone3.Mario);
+   scanf("%ld",telefone4.Alemão);
+   scanf("%ld",telefone5.Garry);
+   scanf("%ld",telefone6.Alvin);
+   scanf("%ld",telefone7.DaveSeville);
+   scanf("%ld",telefone8.Hélio);
+   scanf("%ld",telefone9.John);
+   scanf("%ld",telefonex.IanHawk);
+   printf("José: %ld",*telefone1.Jose);
+   printf("Liza: %ld",*telefone2.Liza);
+   printf("Mario: %ld",*telefone3.Mario);
+   printf("Alemão: %ld",*telefone4.Alemão);
+   printf("Garry: %ld",*telefone5.Garry);
+   printf("Alvin: %ld",*telefone6.Alvin);
+   printf("Dave Seville: %ld",*telefone7.DaveSeville);
+   printf("Hélio: %ld",*telefone8.Hélio);
+   printf("John: %ld",*telefone9.John);
+   printf("Ian Hawk: %ld",*telefonex.IanHawk);
+  //printf("Hello World\n");
+  return 0;
+}

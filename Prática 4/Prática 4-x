@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <string.h>//programa em C que leia o número de mês, valide o número com os meses definidos por uma enumeração e imprima o nome do mês.
+
+int main(void) {
+  int mes;
+  printf("Insira um número de 1 a 12: ");
+  scanf("%d",&mes);
+  if(mes==1)
+  printf("Esse mês é janeiro");
+  if(mes==2)
+  printf("Esse mês é fevereiro");
+  if(mes==3)
+  printf("Esse mês é março");
+  if(mes==4)
+  printf("Esse mês é abril");
+  if(mes==5)
+  printf("Esse mês é maio");
+  if(mes==6)
+  printf("Esse mês é junho");
+  if(mes==7)
+  printf("Esse mês é julho");
+  if(mes==8)
+  printf("Esse mês é agosto");
+  if(mes==9)
+  printf("Esse mês é setembro");
+  if(mes==10)
+  printf("Esse mês é outubro");
+  if(mes==11)
+  printf("Esse mês é novembro");
+  if(mes==12)
+  printf("Esse mês é dezembro");
+  if(mes>=13 ||mes<=0)
+  printf("Esse mês não existe");
+  //printf("Hello World\n");
+  return 0;
+}
